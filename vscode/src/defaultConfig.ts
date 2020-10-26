@@ -5,10 +5,9 @@ const fs = require('fs');
 export default {
     langKey: {
         zh_CN: '中文',
-        // en_US: '英文',
     },// 一共支持哪些语言, 必选
     isAli: false,
-    mdsProjectName: null,
+    mdsProjectName: null, // 删除
     notSameText: '不一致',
     defaultLang: 'zh_CN', // 代码里面写的是那种语言, .d后面的语言
     prefixStatusText: '缺少',

@@ -47,6 +47,13 @@ class Utils {
                     ...NodeConstants
                 }
             });
+            if (userConfig.plugins) {
+                userConfig.plugins.forEach((plugin: any[]) => {
+                    var dd = process.cwd();
+                    console.log(dd, process.cwd());
+                    console.log(plugin);
+                });
+            }
             const lastConfig = {
                 ...defaultConfig,
                 ...userConfig,

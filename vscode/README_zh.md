@@ -1,9 +1,9 @@
 # react-intl-universal
-## Get Started
-### This plug-in needs to be used with the 'react Intl universal' library
-Library address： https://github.com/alibaba/react-intl-universal
-### In the need to do internationalization of the folder (generally can be the project and directory) to create configuration files
-intl.config.js
+## 使用方法
+### 此插件需要配合`react-intl-universal`库使用
+库地址： https://github.com/alibaba/react-intl-universal
+### 在需要做国际化的文件夹(一般可以是项目跟目录)建立
+intl.config.js 配置文件
 
 返回一个函数, 函数返回config对象
 
